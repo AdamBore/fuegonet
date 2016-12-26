@@ -1,6 +1,6 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-
+#
 AC_PREREQ([2.63])
 AC_INIT([fuego-net], [0.1], [two.oes@gmail.com])
 AM_INIT_AUTOMAKE
@@ -31,8 +31,6 @@ PKG_CHECK_MODULES([LIBCONFIGXX], [libconfig++ >= 1.4],,
 
 # Checks for library functions.
 AC_FUNC_MALLOC
-
-AC_OUTPUT
 
 AC_OUTPUT([Makefile include/Makefile
 		   man/Makefile

@@ -1,10 +1,6 @@
 #! /bin/sh
 # Generated automatically by config.status (fuego-net) 0.1
-<<<<<<< HEAD
-# Libtool was configured on host donga.oichman.net:
-=======
-# Libtool was configured on host cabelo.oichman.net:
->>>>>>> 90c892ea5284d88b8bf00a911aa6155e6d97815b
+# Libtool was configured on host donga.redhat.local:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 
 # Provide generalized library-building support services.
@@ -286,20 +282,13 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-<<<<<<< HEAD
 sys_lib_search_path_spec="/usr/lib/gcc/x86_64-redhat-linux/5.3.1 /usr/lib64 /lib64 /usr/lib /lib "
 
 # Detected run-time system search path for libraries.
-sys_lib_dlsearch_path_spec="/lib64 /usr/lib64 /lib /usr/lib /usr/lib64/atlas /usr/lib64/bind99 /usr/lib64/dyninst /usr/lib64/iscsi /usr/lib64/llvm /usr/lib64/mysql /usr/lib64/nx /usr/lib64/nx/X11 /usr/lib64/tcl8.6 "
+sys_lib_dlsearch_path_spec="/lib64 /usr/lib64 /lib /usr/lib /usr/lib64/atlas /usr/lib64/bind99 /usr/lib64/dyninst /usr/lib64/iscsi /usr/lib/llvm /usr/lib64/llvm /usr/lib64/mysql /usr/lib64/nx /usr/lib64/nx/X11 /usr/lib64/tcl8.6 /usr/lib/wine/ /usr/lib64/wine/ "
 
 # Explicit LT_SYS_LIBRARY_PATH set during ./configure time.
 configure_time_lt_sys_library_path=""
-=======
-sys_lib_search_path_spec="/usr/lib/gcc/x86_64-redhat-linux/4.9.2 /usr/lib64 /lib64 "
-
-# Run-time system search path for libraries.
-sys_lib_dlsearch_path_spec="/lib64 /usr/lib64 /lib /usr/lib /usr/lib64/atlas /usr/lib64/dyninst /usr/lib64/iscsi /usr/lib/llvm /usr/lib64/llvm /usr/lib64/mysql /usr/lib64/tcl8.6 /usr/lib/wine/ /usr/lib64/wine/ "
->>>>>>> 90c892ea5284d88b8bf00a911aa6155e6d97815b
 
 # Whether dlopen is supported.
 dlopen_support=yes
@@ -308,7 +297,7 @@ dlopen_support=yes
 dlopen_self=yes
 
 # Whether dlopen of statically linked programs is supported.
-dlopen_self_static=no
+dlopen_self_static=yes
 
 # Commands to strip libraries.
 old_striplib="strip --strip-debug"
@@ -341,7 +330,7 @@ pic_flag=" -fPIC -DPIC"
 wl="-Wl,"
 
 # Compiler flag to prevent dynamic linking.
-link_static_flag="-static"
+link_static_flag=""
 
 # Does compiler simultaneously support -c and -o options?
 compiler_c_o="yes"
