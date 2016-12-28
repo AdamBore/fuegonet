@@ -163,7 +163,7 @@ int main(int argc,char *argv[]) {
                         printf("Network interface is: %s\n",the_thread_data->thnetworkopt.interface_name);
                         printf("the Multicast that will be used  is: %s\n",the_thread_data->thnetworkopt.multi_addr);
         }
-
+h
 
 	thread_prov_res = pthread_create(&thread_provider, NULL , providor_main , (void*)the_thread_data);
 
